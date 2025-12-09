@@ -1,0 +1,188 @@
+/* ---------------------------------------------------
+   BRAHMA AI — CUSTOM JOBVITE STYLES (FINAL VERSION)
+   Matches brand: Open Sans, multicolor button,
+   grey background (#ebebeb), clean UI
+---------------------------------------------------- */
+
+/* Load Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* GLOBAL BACKGROUND */
+html, body, .jv-wrapper {
+    background-color: #ebebeb !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #ebebeb !important;
+}
+
+/* Global font styles */
+body, .jv-wrapper * {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #000 !important;
+}
+
+/* Wrapper spacing */
+.jv-wrapper {
+    padding: 40px !important;
+}
+
+/* ---------------------------------------------------
+   HEADINGS
+---------------------------------------------------- */
+.jv-search-title,
+.jv-job-list-title,
+.jv-job-detail-title {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #000 !important;
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+h2 { font-size: 32px !important; font-weight: 600 !important; }
+h3 { font-size: 26px !important; font-weight: 600 !important; }
+h4 { font-size: 20px !important; font-weight: 600 !important; }
+h5 { font-size: 18px !important; font-weight: 500 !important; }
+
+/* ---------------------------------------------------
+   JOB LIST HEADINGS (Name, Location columns)
+---------------------------------------------------- */
+.jv-job-list-heading-name,
+.jv-job-list-heading-location {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #ccc !important;
+    margin-bottom: 12px !important;
+}
+
+/* Job rows (Name, Location values) */
+.jv-job-list-name,
+.jv-job-list-location {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+    padding: 8px 0 !important;
+}
+
+/* ---------------------------------------------------
+   JOB LIST ITEM CARD
+---------------------------------------------------- */
+.jv-job-list-item {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 24px !important;
+    margin-bottom: 20px !important;
+    border: 1px solid #ddd !important;
+    transition: all .25s ease;
+}
+
+.jv-job-list-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* Job Title */
+.jv-job-list-item-title {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
+
+/* Job Meta (location, dept) */
+.jv-job-list-item-info {
+    font-size: 15px !important;
+    opacity: 0.8 !important;
+    margin-bottom: 10px !important;
+}
+
+/* ---------------------------------------------------
+   MULTICOLOR BUTTON (Brand style)
+---------------------------------------------------- */
+.jv-button,
+.jv-job-detail-apply-button,
+.jv-job-list-item-apply-button,
+.jv-apply-form-submit-button {
+    background-image: linear-gradient(90deg, #f4743b, #f0f44a 35%, #98d1ea 69%, #757575 99%) !important;
+    color: #000 !important;
+    border-radius: 5rem !important;
+    padding: 1rem 1.5rem !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: opacity .25s ease !important;
+}
+
+.jv-button:hover,
+.jv-job-detail-apply-button:hover,
+.jv-job-list-item-apply-button:hover,
+.jv-apply-form-submit-button:hover {
+    opacity: .85 !important;
+}
+
+/* ---------------------------------------------------
+   SEARCH & FILTER FIELDS
+---------------------------------------------------- */
+.jv-search-form input,
+.jv-search-form select {
+    border-radius: 8px !important;
+    border: 1px solid #ccc !important;
+    padding: 12px !important;
+    font-size: 15px !important;
+    width: 100% !important;
+}
+
+.jv-search-filter {
+    margin-bottom: 16px !important;
+}
+
+.jv-search-filter label {
+    font-weight: 600 !important;
+    margin-bottom: 6px !important;
+    display: block;
+}
+
+/* ---------------------------------------------------
+   JOB DETAIL PAGE
+---------------------------------------------------- */
+.jv-job-detail-description {
+    background: #fff !important;
+    padding: 32px !important;
+    border-radius: 12px !important;
+    border: 1px solid #ddd !important;
+    margin-top: 20px !important;
+}
+
+.jv-job-detail-section-title {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+}
+
+/* ---------------------------------------------------
+   APPLY FORM STYLES
+---------------------------------------------------- */
+.jv-apply-form input,
+.jv-apply-form select,
+.jv-apply-form textarea {
+    border-radius: 8px !important;
+    border: 1px solid #ccc !important;
+    padding: 12px !important;
+    font-size: 15px !important;
+    width: 100% !important;
+}
+
+.jv-apply-form input[type="file"] {
+    padding: 8px !important;
+}
