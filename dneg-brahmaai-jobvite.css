@@ -28,7 +28,12 @@ body, .jv-wrapper * {
 .jv-wrapper {
     padding: 40px !important;
 }
-
+.jv-page-job .jv-page-body .jv-wrapper{
+background-color: #ebebeb !important;
+}
+.jv-page-job .jv-header {
+    color: red;
+}
 /* ---------------------------------------------------
    HEADINGS
 ---------------------------------------------------- */
@@ -186,3 +191,4 @@ h5 { font-size: 18px !important; font-weight: 500 !important; }
 .jv-apply-form input[type="file"] {
     padding: 8px !important;
 }
+
