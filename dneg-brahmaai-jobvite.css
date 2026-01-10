@@ -75,7 +75,8 @@ h5 { font-size: 18px !important; font-weight: 500 !important; }
     font-size: 15px !important;
     font-weight: 400 !important;
     color: #000 !important;
-    padding: 8px 0 !important;
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #cccccc !important;
 }
 
 /* ---------------------------------------------------
@@ -176,13 +177,14 @@ h5 { font-size: 18px !important; font-weight: 500 !important; }
 .jv-apply-form textarea {
     border-radius: 8px !important;
     border: 1px solid #ccc !important;
-    padding: 12px !important;
     font-size: 15px !important;
-    width: 100% !important;
+    width: 300px !important;
+    background-color: #ebebeb;
 }
 
 .jv-apply-form input[type="file"] {
     padding: 8px !important;
 }
+
 
 
