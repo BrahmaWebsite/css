@@ -1,0 +1,254 @@
+/* ---------------------------------------------------
+   BRAHMA AI — JOBVITE MOBILE CSS
+   Matches desktop branding
+   Background: #ebebeb
+   Font: Open Sans
+---------------------------------------------------- */
+
+/* Load Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* =====================
+   GLOBAL / LAYOUT
+===================== */
+
+html,
+body,
+.jv-page-container,
+.jv-page,
+.jv-page-content,
+.jv-page-body,
+.jv-wrapper {
+  background-color: #ebebeb !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #000 !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.jv-wrapper {
+  padding: 16px !important;
+}
+
+.jv-page-header,
+.jv-footer {
+  background: transparent !important;
+}
+
+/* =====================
+   TABS / CATEGORIES
+===================== */
+
+.jv-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px !important;
+}
+
+.jv-tab {
+  background: #fff !important;
+  border-radius: 999px !important;
+  padding: 6px 14px !important;
+  font-size: 14px !important;
+  border: 1px solid #ddd !important;
+}
+
+.jv-tab.active {
+  font-weight: 600 !important;
+}
+
+/* =====================
+   JOB LIST PAGE
+===================== */
+
+.jv-job-list-pane {
+  margin: 0 !important;
+}
+
+.jv-job-categories {
+  margin-bottom: 16px !important;
+}
+
+.jv-job-category-link {
+  background: #ffffff !important;
+  border-radius: 999px !important;
+  padding: 8px 14px !important;
+  border: 1px solid #ddd !important;
+  display: inline-block;
+}
+
+.jv-job-category-label {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.jv-job-category-meta {
+  font-size: 12px !important;
+  opacity: 0.7 !important;
+}
+
+.jv-job-list {
+  padding: 0 !important;
+}
+
+.jv-job-list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Job card */
+.jv-job-item {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  border: 1px solid #ddd !important;
+}
+
+/* Job link wrapper */
+.jv-list-link {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* Job title */
+.jv-list-label {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-bottom: 6px !important;
+  display: block;
+}
+
+/* Job meta (location / dept) */
+.jv-meta {
+  font-size: 14px !important;
+  opacity: 0.8 !important;
+}
+
+/* =====================
+   JOB DETAILS PAGE
+===================== */
+
+h2.jv-header {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+
+.jv-job-detail-location {
+  font-size: 14px !important;
+  opacity: 0.8 !important;
+  margin-bottom: 12px !important;
+}
+
+.jv-job-detail-description {
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  margin-bottom: 20px !important;
+}
+
+.jv-job-detail-top-actions,
+.jv-job-detail-bottom-actions {
+  margin-top: 16px !important;
+}
+
+/* =====================
+   BUTTONS (GRADIENT)
+===================== */
+
+.jv-button,
+.jv-button-primary {
+  background-image: linear-gradient(
+    90deg,
+    #f4743b,
+    #f0f44a 35%,
+    #98d1ea 69%,
+    #757575 99%
+  ) !important;
+  color: #000 !important;
+  border-radius: 5rem !important;
+  padding: 12px 20px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  text-align: center !important;
+}
+
+.jv-button:hover,
+.jv-button-primary:hover {
+  opacity: 0.85 !important;
+}
+
+/* =====================
+   APPLY PAGE
+===================== */
+
+.jv-sub-header {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+.jv-apply-meta {
+  font-size: 14px !important;
+  opacity: 0.8 !important;
+  margin-bottom: 16px !important;
+}
+
+.jv-form,
+.jv-apply-form {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  border: 1px solid #ddd !important;
+}
+
+.jv-apply-section {
+  margin-bottom: 16px !important;
+}
+
+.jv-step-header {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+/* Form fields */
+.jv-form-field {
+  margin-bottom: 12px !important;
+}
+
+.jv-form-field-control input,
+.jv-form-field-control textarea,
+.jv-select-group select {
+  width: 100% !important;
+  padding: 12px !important;
+  font-size: 15px !important;
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+  background-color: #ebebeb !important;
+}
+
+/* Select labels */
+.jv-select-group label {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin-bottom: 6px !important;
+  display: block;
+}
+
+/* Apply button wrapper */
+.jv-apply-form-actions {
+  margin-top: 20px !important;
+}
+
+/* Notes */
+.note {
+  font-size: 13px !important;
+  opacity: 0.7 !important;
+}
