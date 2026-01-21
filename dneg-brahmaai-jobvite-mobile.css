@@ -1,5 +1,5 @@
 /* ---------------------------------------------------
-   BRAHMA AI — JOBVITE MOBILE CSS
+   BRAHMA AI — JOBVITE MOBILE CSS V2
    Matches desktop branding
    Background: #ebebeb
    Font: Open Sans
@@ -39,15 +39,69 @@ body {
 }
 
 /* =====================
-   TABS / CATEGORIES
+   New Added
 ===================== */
 
+.jv-page-header h1 a {
+    color: #000000;
+}
+
+.jv-nav-open-link:before {
+    bottom: 0;
+    font-size: 2rem;
+    height: 1em;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1em;
+    color: #000;
+}
+.jv-tabs {
+    background: #ebebeb;
+    border-top: 1px solid #ebebeb;
+    display: table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 25px !important;
+}
+
+.jv-job-category-link .jv-list-icon {
+    color: #000000;
+  }
+  .jv-tab-active:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000000;
+  }
+
+  .jv-active-category .jv-job-category-link:before {
+    border-top: 10px solid #bfbfbf;
+  }
+
+  .jv-job-list .jv-list-link {
+    border-color: #c5c5c5;
+    color: #fff;
+}
+/* =====================
+    New Added
+===================== */
+
+
+/* =====================
+   TABS / CATEGORIES
+===================== */
+/*
 .jv-tabs {
   display: flex;
   gap: 8px;
   margin-bottom: 16px !important;
 }
-
+*/
 .jv-tab {
   background: #fff !important;
   border-radius: 999px !important;
@@ -73,16 +127,19 @@ body {
 }
 
 .jv-job-category-link {
-  background: #ffffff !important;
-  border-radius: 999px !important;
+  background: #ebebeb !important;
+/*  border-radius: 999px !important;*/
   padding: 8px 14px !important;
   border: 1px solid #ddd !important;
-  display: inline-block;
+/*  display: inline-block;*/
+color:#000000;
 }
 
 .jv-job-category-label {
-  font-size: 14px !important;
-  font-weight: 500 !important;
+  font-size: 18px !important;
+    font-weight: 500 !important;
+    font-family: 'Open Sans';
+    color: #000;
 }
 
 .jv-job-category-meta {
@@ -95,17 +152,18 @@ body {
 }
 
 .jv-job-list-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    color: #000;
+    background: #fff;
 }
 
 /* Job card */
 .jv-job-item {
   background: #ffffff !important;
-  border-radius: 12px !important;
-  padding: 16px !important;
-  border: 1px solid #ddd !important;
+    border-radius: 12px !important;
+    padding: 16px 0 !important;
 }
 
 /* Job link wrapper */
@@ -202,10 +260,7 @@ h2.jv-header {
 
 .jv-form,
 .jv-apply-form {
-  background: #ffffff !important;
-  border-radius: 12px !important;
-  padding: 16px !important;
-  border: 1px solid #ddd !important;
+  background: #ebebeb !important;
 }
 
 .jv-apply-section {
