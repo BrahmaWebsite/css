@@ -45,7 +45,12 @@ body {
 .jv-page-header h1 a {
     color: #000000;
 }
-
+.jv-logo:after {
+    background: none;
+}
+.jv-nav {
+    background: #292e2e;
+}
 .jv-nav-open-link:before {
     bottom: 0;
     font-size: 2rem;
@@ -87,6 +92,15 @@ body {
     border-color: #c5c5c5;
     color: #fff;
 }
+.jv-search-list {
+    background: #ebebeb !important;
+}
+.jv-current-openings a {
+    color: #000000;
+}
+.jv-search-list .jv-list-icon, .jv-search-list .jv-list-label, .jv-text-link {
+    color: #000000;
+}
 /* =====================
     New Added
 ===================== */
@@ -103,7 +117,7 @@ body {
 }
 */
 .jv-tab {
-  background: #fff !important;
+    background: #292e2e !important;
   border-radius: 999px !important;
   padding: 6px 14px !important;
   font-size: 14px !important;
@@ -143,8 +157,8 @@ color:#000000;
 }
 
 .jv-job-category-meta {
-  font-size: 12px !important;
   opacity: 0.7 !important;
+  color: #757575;
 }
 
 .jv-job-list {
@@ -163,7 +177,7 @@ color:#000000;
 .jv-job-item {
   background: #ffffff !important;
     border-radius: 12px !important;
-    padding: 16px 0 !important;
+    padding: 3px 2px 0px 4px !important;
 }
 
 /* Job link wrapper */
@@ -235,6 +249,7 @@ h2.jv-header {
   cursor: pointer !important;
   display: inline-block !important;
   text-align: center !important;
+       width: auto;
 }
 
 .jv-button:hover,
@@ -307,3 +322,4 @@ h2.jv-header {
   font-size: 13px !important;
   opacity: 0.7 !important;
 }
+
